@@ -32,9 +32,9 @@ A jQuery Panorama plugin, used to display merchandise in 360 degrees.
 ```html
 <script type="text/javascript" src="js/jquery-1.3.2.min.js" type="text/javascripts" />
 <script type="text/javascript" src="js/jquery.mousewheel.js" type="text/javascripts" />
-<script type="text/javascript"src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+<script type="text/javascript"src="js/jquery.easing.1.3.js" type="text/javascript" />
 <script type="text/javascript" src="js/jquery.panorama-1.0.js" type="text/javascripts" />
-
+```
 * 2、加入CSS样式
 ```css
 .panorama_box{border:1px solid #fff; margin:auto;}
@@ -49,6 +49,7 @@ A jQuery Panorama plugin, used to display merchandise in 360 degrees.
 .start{background:url("images/toolbar.jpg") no-repeat scroll -150px 0;}
 .pause{background:url("images/toolbar.jpg") no-repeat scroll -188px 0;}
 .reset{background:url("images/toolbar.jpg") no-repeat scroll -226px 0;}
+```
 
 * 3、需要将你拍好的多张物品图片命名规则后放置指定目录中，如：images/pic2/，并在页面中添加展示物品的第一张图
 
