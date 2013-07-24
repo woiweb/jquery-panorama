@@ -3,7 +3,7 @@
 
 A jQuery Panorama plugin, used to display merchandise in 360 degrees.
 
-* Author: woiweb
+* Author: [woiweb](http://www.woiweb.net) [@woiweb](http://woiweb.com/woiwebnet)
 * Versor: 1.0
 * Download and more info: [http://www.woiweb.net/jquery-panorama-plugins.html](http://www.woiweb.net/jquery-panorama-plugins.html).
 * Thanks to: [http://www.mathieusavard.info/](http://www.mathieusavard.info/).
@@ -27,16 +27,16 @@ A jQuery Panorama plugin, used to display merchandise in 360 degrees.
 
 ##用法
 
-*1、首先需要引入 jQuery Lib包、jquery.mousewheel.js, jquery.panorama-1.0.js. 我们在这用到jquery的mousewheel插件来实现鼠标滚轮事件。
+* 1、首先需要引入 jQuery Lib包、jquery.mousewheel.js, jquery.panorama-1.0.js. 我们在这用到jquery的mousewheel插件来实现鼠标滚轮事件。
 
-'''html
+```html
 <script type="text/javascript" src="js/jquery-1.3.2.min.js" type="text/javascripts" />
 <script type="text/javascript" src="js/jquery.mousewheel.js" type="text/javascripts" />
 <script type="text/javascript"src="js/jquery.easing.1.3.js" type="text/javascript"></script>
 <script type="text/javascript" src="js/jquery.panorama-1.0.js" type="text/javascripts" />
 
-*2、加入CSS样式
-'''css
+* 2、加入CSS样式
+```css
 .panorama_box{border:1px solid #fff; margin:auto;}
 .image_box{border:1px solid #369; margin:auto; overflow:hidden;position:relative;}
 .image_box img{position:relative;}
@@ -50,10 +50,10 @@ A jQuery Panorama plugin, used to display merchandise in 360 degrees.
 .pause{background:url("images/toolbar.jpg") no-repeat scroll -188px 0;}
 .reset{background:url("images/toolbar.jpg") no-repeat scroll -226px 0;}
 
-*3、需要将你拍好的多张物品图片命名规则后放置指定目录中，如：images/pic2/，并在页面中添加展示物品的第一张图
+* 3、需要将你拍好的多张物品图片命名规则后放置指定目录中，如：images/pic2/，并在页面中添加展示物品的第一张图
 
-*4、Javascript调用
-'''js
+* 4、Javascript调用
+```js
 $(function() {
     var arr = []
     for (var x=1; x<= 25; x++) {
