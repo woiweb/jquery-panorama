@@ -66,17 +66,17 @@ $(function() {
         'cycle':1
     });
 });
+```
 
-看看效果吧，:)
 ##参数说明
 参数   描述 	默认值
 images 	物品360°拍摄的图片路径 	 
 method 	触发方式 	click
 cycle 	旋转次数 	1
 direction 	旋转方向 	forward
-cursor 	鼠标样式 	all-scroll
+cursor 	鼠标样式 	move
 auto 	是否自动旋转 	false
 speed 	旋转速度 	150
 scale 	缩放比例 	0.1
-zoomLevel 	缩放范围 	-5,5
+maxZoomLevel 	最大缩放范围 	5
 zoomSpeed 	缩放速度 	zoomSpeed
