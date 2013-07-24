@@ -1,17 +1,18 @@
 JQuery Panorama Plugins
+========================
 
     当前版本: 1.0 (07/29/2010)
     <a href="http://www.woiweb.net/wp-content/uploads/plugins/panorama/">Demo</a>
     Download
 
-特性
+###特性
 
     支持自动旋转及向左、右方向的旋转
     支持鼠标拖拽旋转和鼠标滑过旋转
     支持按钮点击缩放和鼠标滚轮缩放
     支持重置操作
 
-兼容性
+###兼容性
 
     Firefox 3.6
     IE6-IE8
