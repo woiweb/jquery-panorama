@@ -4,7 +4,7 @@
 A jQuery Panorama plugin, used to display merchandise in 360 degrees.
 
 * Author: [woiweb](http://www.woiweb.net) [@woiweb](http://woiweb.com/woiwebnet)
-* Versor: 1.0
+* Version: 1.0
 * Download and more info: [http://www.woiweb.net/jquery-panorama-plugins.html](http://www.woiweb.net/jquery-panorama-plugins.html).
 * Thanks to: [http://www.mathieusavard.info/](http://www.mathieusavard.info/).
 
