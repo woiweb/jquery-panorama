@@ -1,0 +1,43 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>panorama</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<SCRIPT src="js/jquery-1.3.2.min.js" type="text/javascript"></SCRIPT>
+<SCRIPT src="js/jquery.mousewheel.js" type="text/javascript"></SCRIPT>
+<SCRIPT src="js/jquery.easing.1.3.js" type="text/javascript"></SCRIPT>
+<SCRIPT src="js/jquery.panorama-1.0.js" type="text/javascript"></SCRIPT>
+<style>
+#picbox{border:1px solid #ccc; background:#eee; padding: 30px;}
+.panorama_box{border:1px solid #fff; margin:auto;}
+.image_box{border:1px solid #369; margin:auto; overflow:hidden;position:relative;}
+.image_box img{position:relative;}
+.toolbar{border:1px solid #CCCCCC;height:45px;margin:2px 0;}
+.toolbar span{height:40px;width:38px;margin:2px;cursor:pointer;display:block;float:right;}
+.zoomin{background:url("images/toolbar.jpg") no-repeat scroll 0 0;}
+.zoomout{background:url("images/toolbar.jpg") no-repeat scroll -38px 0;}
+.turnleft{background:url("images/toolbar.jpg") no-repeat scroll -112px 0;}
+.turnright{background:url("images/toolbar.jpg") no-repeat scroll -76px 0;}
+.start{background:url("images/toolbar.jpg") no-repeat scroll -150px 0;}
+.pause{background:url("images/toolbar.jpg") no-repeat scroll -188px 0;}
+.reset{background:url("images/toolbar.jpg") no-repeat scroll -226px 0;}
+</style>
+</HEAD>
+<body onselectstart="return false" oncopy="return false" oncut="return false;" >
+<h3><a href="http://www.woiweb.net/jquery-panorama-plugins.html">返回项目主页</a></h3>
+
+<div id="picbox">
+	<img id=click src="images/pic1/29.jpg" />
+</div>
+
+<script language="javascript">
+$(function() {
+	var arr = []
+	for (var x=29; x>=1; x--) {
+		arr.push("images/pic1/" + x + ".jpg");
+	}
+	$("#click").threesixty({images:arr, method:'click', 'cycle':1, auto:true});
+});
+
+</script>
+</body></HTML>
