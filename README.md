@@ -9,31 +9,31 @@ A jQuery Panorama plugin, used to display merchandise in 360 degrees.
 * Thanks to: [http://www.mathieusavard.info/](http://www.mathieusavard.info/).
 
 ##当前版本: 1.0 (07/29/2010)
-   *[Demo](http://www.woiweb.net/wp-content/uploads/plugins/panorama/).
-   *[Download](http://code.google.com/p/jquery-panorama-plugins/downloads/detail?name=panorama.rar&can=2&q=#makechanges).
+   * [Demo](http://www.woiweb.net/wp-content/uploads/plugins/panorama/).
+   * [Download](http://code.google.com/p/jquery-panorama-plugins/downloads/detail?name=panorama.rar&can=2&q=#makechanges).
 
 ##特性
 
-   *支持自动旋转及向左、右方向的旋转
-   *支持鼠标拖拽旋转和鼠标滑过旋转
-   *支持按钮点击缩放和鼠标滚轮缩放
-   *支持重置操作
+   * 支持自动旋转及向左、右方向的旋转
+   * 支持鼠标拖拽旋转和鼠标滑过旋转
+   * 支持按钮点击缩放和鼠标滚轮缩放
+   * 支持重置操作
 
 #兼容性
 
-   *Firefox 3.6
-   *IE6-IE8
-   *其它待测
+   * Firefox, Chome
+   * IE6-IE8
+   * 其它待测
 
 ##用法
 
 * 1、首先需要引入 jQuery Lib包、jquery.mousewheel.js, jquery.panorama-1.0.js. 我们在这用到jquery的mousewheel插件来实现鼠标滚轮事件。
 
 ```html
-<script type="text/javascript" src="js/jquery-1.3.2.min.js" type="text/javascripts" />
-<script type="text/javascript" src="js/jquery.mousewheel.js" type="text/javascripts" />
-<script type="text/javascript"src="js/jquery.easing.1.3.js" type="text/javascript" />
-<script type="text/javascript" src="js/jquery.panorama-1.0.js" type="text/javascripts" />
+	<script type="text/javascript" src="js/jquery-1.3.2.min.js" type="text/javascripts" />
+	<script type="text/javascript" src="js/jquery.mousewheel.js" type="text/javascripts" />
+	<script type="text/javascript"src="js/jquery.easing.1.3.js" type="text/javascript" />
+	<script type="text/javascript" src="js/jquery.panorama-1.0.js" type="text/javascripts" />
 ```
 * 2、加入CSS样式
 ```css
@@ -56,27 +56,25 @@ A jQuery Panorama plugin, used to display merchandise in 360 degrees.
 * 4、Javascript调用
 ```js
 $(function() {
-    var arr = []
-    for (var x=1; x<= 25; x++) {
-        arr.push("images/pic2/" + x + ".jpg");
-    }
-    $("#click").threesixty({
-        images:arr,
-        method:'click',
-        'cycle':1
-    });
+	    var arr = []
+	    for (var x=1; x<= 25; x++) {
+	    	arr.push("images/pic2/" + x + ".jpg");
+	    }
+	    $("#click").threesixty({
+	        images:arr,
+	        method:'click'
+	    });
 });
 ```
 
 ##参数说明
-参数   描述 	默认值
-images 	物品360°拍摄的图片路径 	 
-method 	触发方式 	click
-cycle 	旋转次数 	1
-direction 	旋转方向 	forward
-cursor 	鼠标样式 	move
-auto 	是否自动旋转 	false
-speed 	旋转速度 	150
-scale 	缩放比例 	0.1
-maxZoomLevel 	最大缩放范围 	5
-zoomSpeed 	缩放速度 	zoomSpeed
+* 参数   							描述 											默认值
+* **images** 					物品360°拍摄的图片路径 	 	
+* **method** 					触发方式 									click
+* **cycle** 					旋转次数 									1
+* **direction** 			旋转方向 									forward
+* **cursor** 					鼠标样式 									move
+* **auto** 						是否自动旋转 							false
+* **speed** 					旋转速度 									150
+* **scale** 					缩放比例 									0.1
+* **maxZoomLevel** 		最大缩放范围 							5
