@@ -19,7 +19,7 @@ A jQuery Panorama plugin, used to display merchandise in 360 degrees.
    * 支持按钮点击缩放和鼠标滚轮缩放
    * 支持重置操作
 
-#兼容性
+##兼容性
 
    * Firefox, Chome
    * IE6-IE8
