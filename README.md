@@ -10,8 +10,7 @@ A jQuery Panorama plugin, used to display merchandise in 360 degrees.
 
 ##当前版本: 1.0 (07/29/2010)
    * [Demo](http://www.woiweb.net/wp-content/uploads/plugins/panorama/).
-   * [Download](http://code.google.com/p/jquery-panorama-plugins/downloads/detail?name=panorama.rar&can=2&q=#makechanges).
-
+   
 ##特性
 
    * 支持自动旋转及向左、右方向的旋转
